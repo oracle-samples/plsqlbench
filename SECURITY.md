@@ -1,15 +1,3 @@
-<!--
-A Benchmark for Real-World Enterprise Text-to-PLSQL Workflows
-
-Copyright © 2026, Oracle and/or its affiliates.
-Licensed under the Creative Commons Attribution-ShareAlike 4.0 International
-License (CC BY-SA 4.0) except where otherwise noted.
-Third-party datasets, code, and other materials included in or referenced by
-this repository remain subject to their original licenses. See Attribution.txt
-for source-specific copyright, attribution, and modification information. See
-Third-Party-Licenses.txt for full-license reproduction.
--->
-
 # Reporting security vulnerabilities
 
 Oracle values the independent security research community and believes that
