@@ -1,57 +1,71 @@
-*Detailed instructions on how to contribute to the project, if applicable. Must include section about Oracle Contributor Agreement with link and instructions*
+<!--
+A Benchmark for Real-World Enterprise Text-to-PLSQL Workflows
 
-# Contributing to this repository
+Copyright © 2026, Oracle and/or its affiliates.
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+License (CC BY-SA 4.0) except where otherwise noted.
+Third-party datasets, code, and other materials included in or referenced by
+this repository remain subject to their original licenses. See Attribution.txt
+for source-specific copyright, attribution, and modification information. See
+Third-Party-Licenses.txt for full-license reproduction.
+-->
 
-We welcome your contributions! There are multiple ways to contribute.
+# Contributing to PLSQLBench
+
+We welcome documentation improvements, bug reports, and proposals for dataset
+corrections or additions.
 
 ## Opening issues
 
-For bugs or enhancement requests, please file a GitHub issue unless it's
-security related. When filing a bug remember that the better written the bug is,
-the more likely it is to be fixed. If you think you've found a security
-vulnerability, do not raise a GitHub issue and follow the instructions in our
-[security policy](./SECURITY.md).
+For bugs or enhancement requests, file a GitHub issue unless it is security
+related. Include the affected benchmark, public instance ID, expected behavior,
+and enough information to reproduce the problem. Do not include private
+holdout data, credentials, personal information, confidential information, or
+data that you do not have permission to share.
 
-## Contributing code
+If you think you have found a security vulnerability, do not raise a GitHub
+issue. Follow the instructions in our [security policy](./SECURITY.md).
 
-We welcome your code contributions. Before submitting code via a pull request,
-you will need to have signed the [Oracle Contributor Agreement][OCA] (OCA) and
-your commits need to include the following line using the name and e-mail
-address you used to sign the OCA:
+## Contributing changes
+
+Before submitting a pull request, you must sign the
+[Oracle Contributor Agreement][OCA] (OCA). Each commit must include the
+following line, using the name and email address used to sign the OCA:
 
 ```text
 Signed-off-by: Your Name <you@example.org>
 ```
 
-This can be automatically added to pull requests by committing with `--sign-off`
-or `-s`, e.g.
+Add the line automatically by committing with `--signoff` or `-s`, for example:
 
 ```text
 git commit --signoff
 ```
 
-Only pull requests from committers that can be verified as having signed the OCA
-can be accepted.
+Only pull requests from contributors who can be verified as having signed the
+OCA can be accepted.
+
+The public release is a generated, read-only snapshot. Do not directly edit
+generated dataset, metadata, DDL, or DML files. Report data corrections with
+their public instance IDs and provenance so maintainers can review them in the
+canonical source and include them in a later generated release. Pull requests
+for public documentation may update the applicable Markdown files directly.
 
 ## Pull request process
 
-1. Ensure there is an issue created to track and discuss the fix or enhancement
-   you intend to submit.
-1. Fork this repository.
-1. Create a branch in your fork to implement the changes. We recommend using
-   the issue number as part of your branch name, e.g. `1234-fixes`.
-1. Ensure that any documentation is updated with the changes that are required
-   by your change.
-1. Ensure that any samples are updated if the base image has been changed.
-1. Submit the pull request. *Do not leave the pull request blank*. Explain exactly
-   what your changes are meant to do and provide simple steps on how to validate.
-   your changes. Ensure that you reference the issue you created as well.
-1. We will assign the pull request to 2-3 people for review before it is merged.
+1. Create an issue to discuss the fix or enhancement.
+2. Fork the repository and create a focused branch.
+3. Make the smallest change needed to resolve the issue.
+4. Update relevant documentation and attribution information.
+5. Confirm that no private holdout content, credentials, or unapproved
+   third-party material is included.
+6. Submit a signed-off pull request that references the issue and describes how
+   maintainers can validate the change.
 
 ## Code of conduct
 
-Follow the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule). If you'd
-like more specific guidelines, see the [Contributor Covenant Code of Conduct][COC].
+Follow the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule). For more
+specific guidelines, see the [Contributor Covenant Code of Conduct][COC].
 
 [OCA]: https://oca.opensource.oracle.com
 [COC]: https://www.contributor-covenant.org/version/1/4/code-of-conduct/
