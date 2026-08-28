@@ -26,7 +26,7 @@ data that you do not have permission to share.
 If you think you have found a security vulnerability, do not raise a GitHub
 issue. Follow the instructions in our [security policy](./SECURITY.md).
 
-## Contributing changes
+## Contributing code
 
 Before submitting a pull request, you must sign the
 [Oracle Contributor Agreement][OCA] (OCA). Each commit must include the
