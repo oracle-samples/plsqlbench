@@ -116,7 +116,15 @@ database tooling to consume these six DDL/DML artifacts:
 - `schema/spider2_plsql/snowflake_sqlite/OUTPUT_DDL_dev.jsonl`
 - `schema/spider2_plsql/snowflake_sqlite/OUTPUT_DML_dev.jsonl`
 
-## Usage examples
+## Documentation
+
+This README documents the released benchmark data, schemas, and evaluation
+protocol. For the benchmark design, task construction, and reported results,
+see the [PLSQLBench paper](https://arxiv.org/abs/2608.15931). For Oracle
+Database and PL/SQL product documentation, see
+[Oracle Database Documentation](https://docs.oracle.com/en/database/).
+
+## Examples
 
 Read the first public MBPP-PLSQL task:
 
@@ -167,10 +175,35 @@ with its individual turns. The standalone public package supplies data and
 schema artifacts, not an Oracle database loader or end-to-end evaluation
 service.
 
+## Help
+
+For questions or reproducible problems involving the public benchmark
+artifacts, open a GitHub issue with the affected public instance ID and enough
+information to reproduce the problem. Use your existing Oracle Support
+channels for Oracle Database product support. Do not use GitHub issues to
+report security vulnerabilities.
+
+## Contributing
+
+This project welcomes contributions from the community. Before submitting a
+pull request, please review our [contribution guide](CONTRIBUTING.md), including
+the Oracle Contributor Agreement and commit sign-off requirements.
+
 ## Security
 
 See [SECURITY.md](SECURITY.md) for Oracle's vulnerability-reporting process.
 Security vulnerabilities must not be reported through public GitHub issues.
+
+## License
+
+Copyright (c) 2026 Oracle and/or its affiliates.
+
+PLSQLBench is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0), except where otherwise noted. See
+[LICENSE.txt](LICENSE.txt) for the license terms, [Attribution.txt](Attribution.txt)
+for source-specific copyright and attribution information, and
+[Third-Party-Licenses.txt](Third-Party-Licenses.txt) for third-party license
+terms.
 
 ## Citation
 
